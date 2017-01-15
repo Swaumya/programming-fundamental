@@ -1,14 +1,14 @@
-#include<stdio.h>
-  #include<conio.h>
-   int main ()
-   {
-    char ch='a';
-    int i=1;
-    while(i<=26)
-    {
-    i++;
-     printf("%c\t",ch);
-     ch++;
-         }
-         return 0;
-   }
+     #include<stdio.h>
+	int main()
+             {
+                int i,j;
+                    for(i=1;i<=5;i++)
+                    {
+                      for(j=1;j<=i;j++)
+                        {
+			  printf("%d ",j);
+                         }
+                           printf("\n");
+                         }
+                        return 0;
+                      }
